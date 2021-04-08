@@ -8,11 +8,11 @@ body {
 }
 
 a {
-  color: #3bcbff;
+  color: #d9dfe1;
 }
 
 a:hover {
-  color: #3bcbff;
+  color: whitesmoke;
   text-decoration: none;
 }
 
@@ -40,12 +40,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   border-radius: 50px;
   background: #ffb03b;
-  color: #fff;
+  color: #209328;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #ffa012;
+  background: #ba1c7d;
   color: #fff;
 }
 
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 .jumbotron {
   margin: 0;
   padding: 30px;
- background-image: linear-gradient(to right, black, black, black);
+ background-image: linear-gradient(to right, #233542, black, #417193);
   color: white;
   
  }
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-  margin-right: 90px;
+  margin-right: 150px;
   
   
 }
@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #ffb03b;
+  color: #207db8;
   text-decoration: none;
 }
 
@@ -404,128 +404,10 @@ h1, h2, h3, h4, h5, h6 {
 /* cursor animations */
 
 @keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
+  from{border-right-color: rgba(0, 195, 255, 0.75);}
   to{border-right-color: transparent;}
 }
-/*--------------------------------------------------------------
-# projects Section
---------------------------------------------------------------*/
-/* ###################### PROJECTS PAGE ######################  */
 
-
-.project__title {
-  margin: 1rem 0 2rem 0;
-}
-
-
-.project__details {
-  margin: 3rem auto;
-  width: 90%;
-  max-width: var(--Max-Width);
-  display: flex;
-  flex-direction: column;
-}
-
-.project__details.right {
-  align-items: flex-end;
-}
-
-.project__details.left {
-  align-items: flex-start;
-}
-
-.project__title {
-  font-size: var(--Font-Size-Medium);
-}
-
-.project__skills.right .item {
-  margin-left: 1rem;
-}
-
-.project__skills.left .item {
-  margin-right: 1rem;
-}
-
-.project__description {
-  width: 25rem;
-  max-width: 80%;
-  font-weight: var(--Font-Weight-Light);
-  font-size: var(--Font-Size-Item);
-  letter-spacing: var(--Spacing-Small);
-  line-height: 1.5rem;
-}
-
-.project__description.right {
-  text-align: right;
-}
-
-.project__button {
-  width: 8rem;
-  margin: 2rem 0;
-}
-
-.project__button.margin__left {
-  margin-left: 1rem;
-}
-
-.project__button.margin__right {
-  margin-right: 1rem;
-}
-
-.project__button .item {
-  font-size: var(--Font-Size-Xsmall);
-
-}
-.project__carousel {
-  overflow-x: scroll;
-  width: 100vw;
-  margin-bottom: 9rem;
-  position: relative;
-  scroll-behavior: inherit;
-}
-
-.carousel__wrapper {
-  max-height: 100%;
-  padding: 0 3rem;
-}
-
-.project__image {
-  margin: 1rem;
-  position: relative;
-}
-
-.project__image img {
-  height: 50vh;
-  width: auto;
-  border: 1px solid var(--Gray);
-}
-
-.project__comment {
-  font-size: var(--Font-Size-Item);
-  margin: .5rem 0;
-  width: 100%;
-  text-align: center;
-  opacity: .5;
-  transition: var(--Transition);
-}
-
-.project__comment:hover {
-  opacity: 1;
-}
-
-@media all and (max-width: 768px) {
-  .project__details {
-      max-width: 70%;
-  }
-
-  .project__details.right {
-      align-items: flex-start;
-  }
-
-  .project__description.right {
-      text-align: left;
-  }
-}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -535,7 +417,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   padding: 40px;
   background-color: black;
-  margin-top: 300px;
+  margin-top: 200px;
   padding-left: 300px;
 }
 
@@ -576,27 +458,24 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255,255,255,.70);;
   margin-bottom: 30px;
   font-size:18px;
-  
-  
 }
-
-
 
 #hero p {
   width: 100%;
-  font-size: 35px;
+  font-size: 32px;
   border-right: solid 3px rgba(0, 166, 255, 0.75);
   white-space: nowrap;
   overflow: hidden;    
   font-family: 'Source Code Pro', monospace;  
-  font-size: 32px;
   color: rgba(255,255,255,.70);
   
 }
 #hero p {
-  animation: animated-text 4s steps(24,end) 1s 1 normal both,
-             animated-cursor 600ms steps(30,end) infinite;
+  animation: animated-text 4s steps(32,end) 1s 1 normal both,
+             animated-cursor 600ms steps(39,end) infinite;
 }
+
+
 
 #hero h1 {
   width: 100%;
@@ -663,7 +542,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-menu:hover, #hero .btn-book:hover {
-  background: #ffb03b;
+  background: #3bcbff;
   color: #fff;
 }
 
@@ -688,7 +567,8 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   width: 100vw;
-  min-height: 100vh;
+  min-width: 90vh;
+  
 }
 .section__content {
   max-width: var(--Max-Width);
@@ -705,6 +585,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  
 }
 
 .section-title h2 {
@@ -962,49 +843,9 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# contact
---------------------------------------------------------------*/
-.contact .box {
-  
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  transition: all ease-in-out 0.3s;
-  display: flex;
-  border:1px solid lightblue
 
-}
 
-.contact .box span {
-  display: block;
-  font-size: 28px;
-  font-weight: 700;
-  color: #ffcf88;
-}
 
-.contact.box h4 {
-  font-size: 24px;
-  font-weight: 600;
-  padding: 0;
-  margin: 0 0;
-  color: #6c665c;
-}
-
-.membership.box p {
-  color: #aaaaaa;
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
-}
-
-.membership .box:hover {
-  background: #ffb03b;
-  padding: 30px 30px 70px 30px;
-  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
-}
-
-.membership .box:hover span, .membership .box:hover h4, .membership .box:hover p {
-  color: #fff;
-}
 
 /*--------------------------------------------------------------
 # Menu Section
@@ -1718,196 +1559,29 @@ body{
 
 
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-.contact .info-wrap {
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-}
-
-.contact .info {
-  background: #fff;
-}
-
-.contact .info i {
-  font-size: 20px;
-  color: #ffb03b;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #fff6e8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #433f39;
-  font-family: "Poppins", sans-serif;
-}
-
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #7a7368;
-}
-
-.contact .info:hover i {
-  background: #ffb03b;
-  color: #fff;
-}
-
-.contact .php-email-form {
-  width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  padding: 30px;
-  background: #fff;
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input {
-  height: 44px;
-}
-
-.contact .php-email-form textarea {
-  padding: 10px 12px;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #ffb03b;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: #ffa012;
-}
-
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 /*--------------------------------------------------------------
 # contact
 --------------------------------------------------------------*/
 .contact .box {
-  padding: 50px 30px;
+  padding: 50px 100px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-}
-
-.contact .box span {
-  display: block;
-  font-size: 28px;
-  font-weight: 700;
-  color: #ffcf88;
-}
-
-.contact.box h4 {
+  align-content: center;
   font-size: 24px;
-  font-weight: 600;
-  padding: 0;
-  margin: 20px 0;
-  color: #6c665c;
+  
 }
 
-.contact.box p {
-  color: #aaaaaa;
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-}
+
 
 .contact .box:hover {
  
-  padding: 30px 30px 70px 30px;
-  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+ 
+  box-shadow: 10px 15px 30px rgba(16, 75, 112, 0.886);
 }
 
-.contact .box:hover span, .contact .box:hover h4, .contact .box:hover p {
-  color: #fff;
-}
+
+
 
 
 
@@ -1917,10 +1591,9 @@ body{
 #footer {
   background: black;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
-  padding: 0px 0;
-  font-family: "SF Compact",sans-serif;;
+  padding: 30px 0;
 }
 
 #footer h3 {
@@ -1949,7 +1622,7 @@ body{
   background: #46423b;
   color: #fff;
   line-height: 1;
-
+  padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
@@ -1971,4 +1644,17 @@ body{
 }
 
 
+/*--------------------------------------------------------------
+# swiper section
+--------------------------------------------------------------*/
 
+.projects {
+  margin: 1rem;
+  position: relative;
+}
+
+.projects img {
+  height: 50vh;
+  width: auto;
+  border: 1px solid var(--Gray);
+}
