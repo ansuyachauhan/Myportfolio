@@ -464,9 +464,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h4 {
-  color: rgba(255,255,255,.70);;
+  
   margin-bottom: 30px;
-  font-size:18px;
+  font-size: 32px;
+  border-right: solid 3px rgba(0, 166, 255, 0.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  color: rgba(255,255,255,.70);
+}
+
+#hero h3 span{
+  
+  color: rgba(0, 166, 255, 0.75);;
+  margin-bottom: 30px;
+  font-size:22px;
+  font-family: 'Source Code Pro', monospace;  
+}
+#hero h3{
+  
+  color: rgba(255, 255, 255, 0.7);;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-family: 'Source Code Pro', monospace;  
+}
+#hero span {
+  margin-bottom: 30px;
+  
+  width: 100%;
+  font-size: 28px;
+  
+ 
+  font-family: 'Source Code Pro', monospace;  
+  color: rgba(255,255,255,70);
 }
 
 #hero p {
@@ -477,7 +507,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;    
   font-family: 'Source Code Pro', monospace;  
   color: rgba(255,255,255,.70);
-  margin-left:auto;
+
   
 }
 #hero p {
