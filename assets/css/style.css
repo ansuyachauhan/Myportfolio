@@ -467,9 +467,7 @@ h1, h2, h3, h4, h5, h6 {
   
   margin-bottom: 30px;
   font-size: 32px;
-  border-right: solid 3px rgba(0, 166, 255, 0.75);
-  white-space: nowrap;
-  overflow: hidden;    
+    
   font-family: 'Source Code Pro', monospace;  
   color: rgba(255,255,255,.70);
 }
